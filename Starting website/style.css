@@ -100,6 +100,7 @@ a:hover {
 .texture-paper::before {
     background: url("img/texture-paper.png");
     background-size: 280px 280px;
+    background: none;
 
 }
 
@@ -285,6 +286,20 @@ a:hover {
     margin-left: 0;
 }
 
+/* ajout */
+
+#citation_text{
+    font-size: 1.3em;
+    font-style: italic;
+    color: #575757!important;
+}
+
+#citation_author{
+    font-size: 1em;
+    font-style: normal;
+    color: #575757!important;
+}
+
 .row.row-no-gutters > [class^="col-"],
 .row.row-no-gutters > [class*=" col-"] {
     padding-right: 0;
@@ -454,7 +469,7 @@ nav .caret {
 }
 
 .btn {
-    margin: 0 5px 5px 0;
+    margin: 0 5px 12px 0;
 }
 
 .btn.pull-right {
@@ -686,7 +701,7 @@ a {
 }
 
 p {
-    font-size: 11px;
+    font-size: 14px;
 }
 
 .tight-width-whitespace {
@@ -709,7 +724,7 @@ p {
 }
 
 .social {
-    max-width: 400px;
+   
     margin: auto auto auto auto;
 }
 
@@ -762,8 +777,9 @@ h4 {
 }
 
 .black-background {
-    background-color: rgba(165, 147, 99, 0.7);
-    padding: 40px 40px 40px 40px;
+    background-color: #f3976c;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 .bold-link {
@@ -798,7 +814,7 @@ h4 {
 }
 
 .ltc-white {
-    color: #FFFFFF!important;
+    color: #333!important;
 }
 
 .ltc-white:hover {
@@ -824,6 +840,7 @@ h4 {
 
 .bg-lines-h2-bg {
     background-image: url("img/lines-h2-bg.png");
+    background: none;
 }
 
 .bg-banniere {
@@ -1049,4 +1066,68 @@ h4 {
     .bloc-mob-center-text {
         text-align: center;
     }
+
+    
+}
+
+/* ajout */
+.bgc-dark-slate-grey{
+    background-color: #f3976c;
+}
+
+.row h6{
+    font-size: 22px;
+    line-height: 1.4em;
+}
+
+.bloc-5-cta_color{
+    background-color: #f3976c;
+}
+
+.portofolio_text{
+   font-size: 1.6em;
+}
+
+.col-sm-6 h5{
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #333!important;
+}
+
+.col-sm-6 p{
+    font-size: 14px;
+    font-weight: 400;
+    color: #575757!important;
+}
+
+.portfolio-thumb{
+    margin:auto;
+}
+
+.img-responsive{
+height: 244px;
+}
+
+.col-sm-12 h4{
+    font-size: 22px;
+    line-height: 1.4em;
+}
+
+.col-sm-12 p{
+    color: #333!important;
+    
+}
+.fa{
+    color: #575757!important;
+    
+}
+
+
+@media (max-width:771px) {
+    #bloc-5-cta{
+        background:#f3976c;
+    }
+
+ 
 }
