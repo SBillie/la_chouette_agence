@@ -1070,7 +1070,7 @@ h4 {
     
 }
 
-/* ajout */
+/* ajout page accueil*/
 .bgc-dark-slate-grey{
     background-color: #f3976c;
 }
@@ -1129,5 +1129,127 @@ height: 244px;
         background:#f3976c;
     }
 
- 
 }
+
+/* ajout page 2*/
+
+/* navbar */
+.navbar-toggle {
+    margin: 10px 10px 0 0;
+    border: 0;
+}
+
+.navbar-toggle {
+    position: relative;
+    float: right;
+    padding: 9px 10px;
+    margin-top: 8px;
+    margin-right: 15px;
+    margin-bottom: 8px;
+    background-color: transparent;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0,0,0,0);
+    border: 0;
+}
+
+.l-bloc .navbar-toggle .icon-bar {
+    color: rgba(0,0,0,.6);
+}
+
+.navbar-toggle .icon-bar {
+    background-color: rgba(0,0,0,.5);
+    width: 26px;
+}
+
+.navbar-toggle .icon-bar {
+    display: block;
+    width: 22px;
+    height: 2px;
+    border-radius: 1px;
+}
+
+.navbar-toggle .icon-bar+.icon-bar {
+    margin-top: 4px;
+}
+/* texte d'accroche */
+.scrollToTop span {
+    margin-top: 6px;
+}
+
+.bg-dots-bg {
+    background-image: url(img/dots-bg.png);
+    background: none;
+}
+
+.bgc-atomic-tangerine {
+    background-color: #f3976c;
+}
+
+.col-sm-12 p,h1{
+    text-align: center;
+}
+
+/* formulaire */
+
+#form_1{
+    padding: 5px;
+}
+
+.form-group{
+        margin-bottom: 15px;
+}
+
+.form-control {
+    border-color: rgba(0,0,0,.1);
+    box-shadow: none;
+}
+
+.form-control{
+    display: block;
+    width: 70%;
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    
+}
+
+/* boutoen envoyer */
+
+.btn-atomic-tangerine{
+    background: #f3976c;
+    color: #555!important;
+    border-radius: 12px;
+    width: 12em;
+    border: none;
+}
+
+
+@media (max-width: 768px){
+
+    .col-sm-6 {
+        width: 60%;
+        }
+}
+
+
+
+
+
+
