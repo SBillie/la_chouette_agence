@@ -1090,6 +1090,7 @@ h4 {
 
 .portofolio_text_link{
      color:black;
+     text-decoration: underline;
 }
 
 .portofolio_text_link:hover{
