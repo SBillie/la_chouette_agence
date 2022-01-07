@@ -1196,6 +1196,11 @@ height: 244px;
 .navbar-toggle .icon-bar+.icon-bar {
     margin-top: 4px;
 }
+
+.navlink:hover{
+    cursor: pointer;
+}
+
 /* texte d'accroche */
 .scrollToTop span {
     margin-top: 6px;
